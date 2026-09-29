@@ -4,7 +4,7 @@ if \
 ; then \
     nginx_nginx_log_dir_base="$(< /etc/nginx-nginx-log-dir-base)" \
     && sudo truncate -s0 \
-    "$nginx_nginx_log_dir_base"/log/nginx/nginx/live/heartbeat/*.log \
+    "$nginx_nginx_log_dir_base"/log/nginx/nginx/live/nginx/*.log \
 ; else \
     echo 'Check `/etc/nginx-nginx-log-dir-base`.' \
 ; fi
