@@ -6,6 +6,7 @@ rm -f \
 /var/log/dpkg.log.* \
 /var/log/fail2ban.log.* \
 /var/log/kern.log.* \
+/var/log/mail.log.* \
 /var/log/syslog.* \
 /var/log/ufw.log.* \
 /var/log/user.log.*
